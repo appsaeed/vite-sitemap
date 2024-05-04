@@ -1,0 +1,53 @@
+{
+  "name": "vite-sitemap",
+  "version": "1.0.4",
+  "description": "The plugin helps to automatically create a sitemap. A sitemap is like a map for search engines, telling them what pages you have on your site. This makes it easier for search engines to find website and urls!",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "rm": "rm -rf ./dist",
+    "upload": "tsc && npm publish  --access public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/appsaeed/vite-svg.git"
+  },
+  "keywords": [
+    "vite-svg",
+    "vite svg import",
+    "svg to json vite",
+    "svg raw string",
+    "svg loader vite",
+    "flexible svg import vite",
+    "appsaeed"
+  ],
+  "author": "appsaeed",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/appsaeed/vite-svg.git/issues"
+  },
+  "homepage": "https://github.com/appsaeed/vite-svg.git#readme",
+  "files": [
+    "dist/"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js",
+      "require": "./dist/index.js"
+    },
+    "./*": {
+      "types": "./dist/*.d.ts",
+      "import": "./dist/*.js",
+      "default": "./dist/*.js",
+      "require": "./dist/*.js"
+    }
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "date-fns": "^3.6.0"
+  }
+}
