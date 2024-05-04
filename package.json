@@ -1,6 +1,6 @@
 {
   "name": "vite-sitemap",
-  "version": "1.0.4",
+  "version": "1.0.2",
   "description": "The plugin helps to automatically create a sitemap. A sitemap is like a map for search engines, telling them what pages you have on your site. This makes it easier for search engines to find website and urls!",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -12,23 +12,25 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/appsaeed/vite-svg.git"
+    "url": "git+https://github.com/appsaeed/vite-sitemap.git"
   },
   "keywords": [
-    "vite-svg",
-    "vite svg import",
-    "svg to json vite",
-    "svg raw string",
-    "svg loader vite",
-    "flexible svg import vite",
+    "vite seo",
+    "vite sitemap generator",
+    "automatic sitemap generation for vite",
+    "improve website SEO with vite",
+    "vite plugin for search engines",
+    "vite for better SEO",
+    "generate sitemap for vite project",
+    "seo friendly vite website",
     "appsaeed"
   ],
   "author": "appsaeed",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/appsaeed/vite-svg.git/issues"
+    "url": "https://github.com/appsaeed/sitemap.git/issues"
   },
-  "homepage": "https://github.com/appsaeed/vite-svg.git#readme",
+  "homepage": "https://github.com/appsaeed/sitemap.git#readme",
   "files": [
     "dist/"
   ],
