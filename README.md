@@ -1,5 +1,5 @@
 ## Intro
-The plugin helps to automatically create a sitemap. A sitemap is like a map for search engines, telling them what pages you have on your site. This makes it easier for search engines to find website and urls!
+Find the Vite plugins here. They make sitemaps for Vite projects super easy. They help users and search engines find stuff on your site easily. Makes your website better and saves you time.
 
 ## Installation
 Install with [npm](https://www.npmjs.com/)
